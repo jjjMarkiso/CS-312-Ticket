@@ -39,3 +39,22 @@
     color: white;
     padding: 10%;
 }
+
+.signOutButton {
+    background: none;
+    border: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 18px;           /* matches link font */
+    text-decoration: none;
+    padding: 5px 15px;         /* matches link padding */
+    border-radius: 5px;        /* matches link rounding */
+    transition: 0.3s ease;     /* matches link hover */
+}
+
+.logoImage {
+    height: 50px;        /* adjust size */
+    width: auto;
+    object-fit: contain;
+    cursor: pointer;
+}
